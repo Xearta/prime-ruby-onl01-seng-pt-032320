@@ -1,7 +1,9 @@
 def prime?(num)
   if num == 2
     true
-  else
+  elsif num > 0
     num % 2 == 1
+  else
+    "The number must be positive!"
   end
 end
