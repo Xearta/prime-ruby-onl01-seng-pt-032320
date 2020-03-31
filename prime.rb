@@ -1,3 +1,3 @@
-def prime?(num)
-  return num % 2 == 1
+
+  return num % 2 == 1def prime?(num)
 end
