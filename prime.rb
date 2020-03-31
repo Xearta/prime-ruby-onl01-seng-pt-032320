@@ -5,5 +5,7 @@ def prime?(num)
     return false
   elsif num > 2 && num % 2 == 1
     return true
+  else
+    return false
   end
 end
