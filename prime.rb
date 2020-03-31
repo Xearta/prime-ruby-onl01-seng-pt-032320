@@ -3,4 +3,5 @@ def prime?(num)
     true
   else
     num % 2 == 0
+  end
 end
